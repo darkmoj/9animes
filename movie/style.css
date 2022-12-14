@@ -1,8 +1,30 @@
 
 *{
-    overflow-x: hidden;
-    overflow-y: hidden;  
+    box-sizing: border-box;
+    /* overflow-x: hidden;
+    overflow-y: hidden;   */
+    
 }
+::-webkit-scrollbar {
+    width: 5px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
 body{
     box-sizing: border-box;
     font-family: averta,sans-serif;
@@ -11,35 +33,65 @@ background: #434645;
  
 
 }
-.player{
-    margin: 5% 0 0 0;
-    text-align: center;
-    /* display: inline-block */
-
+/* .raw{
+    margin: -150px 0 0 0;
+} */
+.add-1{
+    
+    display: inline;
 }
+.add-2{
+    display: inline;
+}
+.add-3{
+    display: inline; 
+}
+.add-4{
+    display: inline;
+}
+.add-5{
+    display: inline;
+}
+.add-6{
+    display: inline;
+}
+.add-7{
+    display: inline;
+}
+
+
+    
+.player{
+    margin: 0 0 0 0px;
+    display: inline-block;
+    text-align: center;
+}
+.responsive-play{
+    width: 800px;
+    height: 500px;
+}
+
+
 
 .button{
-    /* background-color: aqua; */
-    padding: 12%;
-    /* border: 5px solid rgb(0, 0, 0); */
-    color: rgb(26, 162, 196);
-    /* text-align: center; */
-    text-decoration: none;
-    display: flex;
-    /* align-items: center; */
-    font-size: 16px;
-    margin-top: 3%;
-    margin-left: 25%;
-   
-    font-size: 20em;
-    /* box-sizing: border-box; */
-}
+    text-align: center;
+    margin-top: 25px;
+    
+    
+} 
+
+
+
 .download{
-    padding: 3% 15% 3% 15%;
-    background: rgb(255, 180, 42);
-    border: 1px solid rgb(0, 0, 0);
-    color: black;
-    font-size: 8%;
-    cursor: pointer;
+     cursor: pointer;
+    background-color: rgb(255, 180, 42); border: none; font-size: 2rem;
+    padding: 12px;
+    /* text-align: center; */
+     /* margin-top: ;
+    margin-left: 250px; */
+
 }
+
+
+
 
